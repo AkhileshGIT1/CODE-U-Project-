@@ -1,0 +1,33 @@
+
+
+
+OWASP top 10 in 2021
+
+Broken Access Control:- a person having other access which he didn't own and permissioned.
+Cryptographic faliure:- any sensitive data miss to encrypt or open to other person
+Injection:- (fields) - SQL, command injection, injecting parameters into any field.
+Insecure Design :-  
+security misconfiguration:-HTTPS HTTP
+Vulnerable and Outdated Componenets:- outdated plugins
+Identification and Authentication Failures:- cookies storage, limit, stale cookies.
+Software and Data Intergrity Failure:-
+Securtiy logging and Monitoring Failures:- 
+Server-Side Reuest forgery (SSRF):-
+
+
+
+
+
+
+OWASP top 10 in 2025
+
+Broken Access Control
+Security MisConfiguration
+Software Supply Chain Failures
+Cryptographic failures
+Injection
+Insecure Design
+Authentication Failures
+Software or Data Integrity Failure
+Security logging and Alerting Failures
+Mishanding of Exceptional Conditions
