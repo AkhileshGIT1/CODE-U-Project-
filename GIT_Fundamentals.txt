@@ -46,6 +46,10 @@ git help --all - List all possible Git commands
 git help -g - List guides and concepts
 
 
+git rm TD.txt (delete any file from terminal and staged )
+
+
+
 git branch hello-world-images
 Now we created a new branch called "hello-world-images"
 
