@@ -1,0 +1,79 @@
+Working Directory --> Staging Area --> Remote repository
+3 Tier Archtecture
+
+
+Creating Git Folder
+
+mkdir creates a new directory.
+cd changes our working directory.
+
+Initialize Git
+git init
+
+
+repository is a folder that Git tracks for changes.
+
+ls - List files in the folder
+git status - Check which files are tracked
+
+
+git add <file> - Stage a file
+git add --all or git add -A - Stage all changes
+git status - See what is staged
+git restore --staged <file> - Unstage a file
+
+
+
+git commit -m "message" - Commit staged changes with a message
+git commit -a -m "message" - Commit all tracked changes (skip staging)
+git log - See commit history
+
+To see which files changed in each commit, use git log --stat:
+
+
+git diff
+See what is different between your working directory and the last commit (unstaged changes):
+git diff --Staged
+
+
+git log --oneline or git log --since
+
+Key Commands for Getting Help
+git help <command> - See the manual page for a command
+git <command> --help - See help for a command (same as above)
+git <command> -h - See a quick summary of options
+git help --all - List all possible Git commands
+git help -g - List guides and concepts
+
+
+git branch hello-world-images
+Now we created a new branch called "hello-world-images"
+
+Listing All Branches
+git branch
+  hello-world-images
+* master
+
+git checkout hello-world-images
+Switched to branch 'hello-world-images'
+
+
+git branch -d hello-world-images  [Deleting a Branch]
+
+
+git merge - Merge a branch into your current branch
+git merge --no-ff - Always create a merge commit
+git merge --squash - Combine changes into a single commit
+git merge --abort - Abort a merge in progress
+
+
+
+
+git remote add origin https://github.com/AkhileshGIT1/CODE-U-Project-.git
+git branch -M main
+git push -u origin main
+
+
+https://github.com/AkhileshGIT1/CODE-U-Project-.git
+
+
