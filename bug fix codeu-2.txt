@@ -1,0 +1,4 @@
+New fixes
+
+WebDriver driver = new ChromeDriver();
+driver.get("");
