@@ -59,8 +59,6 @@ git branch
 
 git checkout hello-world-images
 Switched to branch 'hello-world-images'
-
-
 git branch -d hello-world-images  [Deleting a Branch]
 
 
@@ -70,12 +68,9 @@ git merge --squash - Combine changes into a single commit
 git merge --abort - Abort a merge in progress
 
 
-
 git remote add origin https://github.com/AkhileshGIT1/CODE-U-Project-.git
 git branch -M main
 git push -u origin main
-
-
 https://github.com/AkhileshGIT1/CODE-U-Project-.git
 
 
